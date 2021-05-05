@@ -1,0 +1,182 @@
+//@import "_var";
+
+
+*, *:before, *:after{
+    //outline: 1px solid red;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ html {
+     font-size: 16px;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ }
+
+ body {
+     //background: palegoldenrod;
+   // font-family: var(--font-1);
+   //overflow-x: hidden;
+ }
+
+ li {
+    list-style: none !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: var(--black);
+  }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    //background: lightcyan
+}
+.slider-container {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    width: 100%;
+    max-width: 1400px;
+
+   // background:lightblue;
+   height: 1000px;
+    position: relative;
+
+    .slider {
+        margin: auto;
+       // max-width: 90%;
+        //width: auto;
+        
+        //position: relative;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .right-container, .left-container {
+          display: flex;
+      }
+}
+
+ 
+  .image {        
+      object-fit: fill;  
+    //height: 600px;
+    //border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .slide.portrait {
+   
+    h1 {
+      width: 50% !important;
+      margin: 0 auto;
+    }
+     img {
+      margin: 0 auto;
+      width: 50% !important;
+      
+      //outline: red solid 1px;
+     }
+  }
+
+  .slide.landscape {
+    
+    // width: 70%;
+    h1 {
+      margin: 0 auto;
+      width: 70%;
+    }
+    img {
+      width: 70%;
+    }
+  }
+
+
+  .arrow {
+    width: 30px;
+   margin: auto;
+   img {
+    cursor: pointer;
+   }
+
+  }
+  
+  .right-arrow {
+ 
+    
+    
+  }
+  
+  .left-arrow {
+
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+  }
+  
+  .dots-container {
+       font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+       font-style: italic;
+       font-size: 1.4rem;
+    z-index: 40;
+    //background: red;
+    //position: absolute;
+    // bottom: 0px;
+    width: 100px; 
+    margin: auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .dot {
+    padding: 0 10px;
+    margin-right: 5px;
+   cursor: pointer;
+    // border-radius: 50%;
+    // background: grey;
+    position: relative;
+    &:hover {
+      font-weight: 700;
+
+    }
+
+  } 
+
+  .dot.active::after {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:1px;
+    background-color:black;
+    transition: background-color 0.3s ease-in-out;
+    bottom:-3px;
+    left:0;
+    right:0;
+    margin:auto;
+    @media all and (max-width: 700px) {
+        // width:100px;
+        // bottom:-7px;
+    }
+}
+  .pagination-container {
+      display: flex;
+      width: 100%;
+      //margin: 30px;
+  }
