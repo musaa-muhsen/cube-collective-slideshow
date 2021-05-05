@@ -1,7 +1,11 @@
+import Slider from "./components/Slider";
+import {Data} from "./components/Data";
+
+
 function App() {
   return (
     <div className="App">
-   <p>hello</p>
+         <Slider slides={Data} />
     </div>
   );
 }
