@@ -52,6 +52,7 @@ const Slider = ({slides}) => {
         <div className="slider">
             {
                 slides.map((s, i) => {
+                    console.log('../images/' + s.image)
                     return (
                         <div className={ s.orientation + ' ' + (i === state ? 'slide active' : 'slide') } key={i}>
                             {i === state && <img src={s.image}  alt="architecture images" className={'image'} /> }
