@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const Pagination = ({ state,setState,slides}) => {
+    
     function plusOne(i) {
         return i + 1;
     }

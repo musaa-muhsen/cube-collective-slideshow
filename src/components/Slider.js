@@ -7,10 +7,10 @@ import leftIcon from '../images/left-icon.svg';
 
 
 const Slider = ({slides}) => {
-    console.log(slides)
+    //console.log(slides)
 
     const [state, setState] = useState(0);
-    console.log(state)
+    //console.log(state)
     
     const length = slides.length;
     //let interval = null
@@ -18,7 +18,7 @@ const Slider = ({slides}) => {
     //     setState((length - 1)++);
     // }, 2000);
 
-     // useRef ==============================================================
+     // useRef =================
      const autoPlayRef = useRef();
      //console.log(autoPlayRef.current);
 
@@ -42,12 +42,6 @@ const Slider = ({slides}) => {
         setState(state === 0 ? length - 1 : state - 1)
     }
 
-    // if (!Array.isArray(slides) || slides.length <= 0) {
-    //     return null;
-    // }
-   
-
-
 
     return (
         <section>
@@ -60,7 +54,7 @@ const Slider = ({slides}) => {
                 slides.map((s, i) => {
                     return (
                         <div className={ s.orientation + ' ' + (i === state ? 'slide active' : 'slide') } key={i}>
-                            {i === state && <img src={s.image}  alt="image" className={'image'} /> }
+                            {i === state && <img src={s.image}  alt="architecture images" className={'image'} /> }
                             {i === state && <h1>{s.title}</h1>}
                         </div>
                     )
