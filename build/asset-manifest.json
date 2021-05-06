@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.674aa3ab.chunk.css",
-    "main.js": "/static/js/main.0fa46499.chunk.js",
-    "main.js.map": "/static/js/main.0fa46499.chunk.js.map",
+    "main.js": "/static/js/main.c710e9e4.chunk.js",
+    "main.js.map": "/static/js/main.c710e9e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4c29ca1b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4c29ca1b.js.map",
     "static/js/2.21f7066b.chunk.js": "/static/js/2.21f7066b.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.674aa3ab.chunk.css.map": "/static/css/main.674aa3ab.chunk.css.map",
     "static/js/2.21f7066b.chunk.js.LICENSE.txt": "/static/js/2.21f7066b.chunk.js.LICENSE.txt",
     "static/media/adrian-trinkaus-yv-FjtjPOng-unsplash.7ce93307.jpg": "/static/media/adrian-trinkaus-yv-FjtjPOng-unsplash.7ce93307.jpg",
-    "static/media/jordi-moncasi-_15GbZt4fRk-unsplash.69ea870b.jpg": "/static/media/jordi-moncasi-_15GbZt4fRk-unsplash.69ea870b.jpg",
+    "static/media/ismail-merad-T9WWuoUwxjA-unsplash.ed3a8af7.jpg": "/static/media/ismail-merad-T9WWuoUwxjA-unsplash.ed3a8af7.jpg",
     "static/media/kiarash-mansouri-HlPYuW0c3Ow-unsplash.01f1f0f0.jpg": "/static/media/kiarash-mansouri-HlPYuW0c3Ow-unsplash.01f1f0f0.jpg",
     "static/media/left-icon.d5019712.svg": "/static/media/left-icon.d5019712.svg",
     "static/media/minator-yang-nTZi_9eZ9rs-unsplash.8268876e.jpg": "/static/media/minator-yang-nTZi_9eZ9rs-unsplash.8268876e.jpg",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.4c29ca1b.js",
     "static/js/2.21f7066b.chunk.js",
     "static/css/main.674aa3ab.chunk.css",
-    "static/js/main.0fa46499.chunk.js"
+    "static/js/main.c710e9e4.chunk.js"
   ]
 }

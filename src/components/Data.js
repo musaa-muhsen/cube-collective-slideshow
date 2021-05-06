@@ -2,7 +2,7 @@ import image1 from '../images/minator-yang-nTZi_9eZ9rs-unsplash.jpg';
 import image2 from '../images/adrian-trinkaus-yv-FjtjPOng-unsplash.jpg';
 import image3 from '../images/kiarash-mansouri-HlPYuW0c3Ow-unsplash.jpg';
 import image4 from '../images/wu-yi-IdF9aHDybcc-unsplash.jpg';
-import image5 from '../images/jordi-moncasi-_15GbZt4fRk-unsplash.jpg';
+import image5 from '../images/ismail-merad-T9WWuoUwxjA-unsplash.jpg';
 import image6 from '../images/ricardo-gomez-angel-HwMMKPGpvjk-unsplash.jpg';
 
 
@@ -32,7 +32,7 @@ export const Data  = [
     },
     {
         image: image5,
-        title: 'jordi moncasi',
+        title: 'ismail merad',
         orientation: 'portrait'
 
     },
