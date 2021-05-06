@@ -62,11 +62,15 @@ section {
     max-width: 1200px;
    
    @media all and (min-width: 1301px) {
-    height: 1100px;
+    height: 1080px;
    }
-   @media all and (min-width: 601px) and (max-width: 1300px) {
+   @media all and (min-width: 801px) and (max-width: 1300px) {
     //background:lightblue;
     height: 880px;
+   }
+   @media all and (min-width: 601px) and (max-width: 800px) {
+    //background:lightblue;
+    height: 710px;
    }
 
    @media all and (max-width: 600px) {
@@ -104,40 +108,49 @@ section {
       font-weight: 300;
       font-style: italic;
       text-transform: capitalize;
-      font-size: 22px;
-      @media all and (max-width: 700px) {
+      font-size: 21px;
+      @media all and (max-width: 650px) {
         font-size: 14px;
       }
 
     }
-    h1::after {
+   .line {
       vertical-align: middle;
       content: '';
       display: inline-block;
       background: #000;
       height: 1px;
-      width: 100px;
-      margin-left: 0.5em;
-      transition: all 1s ease;
+      width: 60px;
+      margin-left: 0.6em;
+      margin-right: 0.6em;
+      //transition: all 1s ease;
       @media all and (max-width: 700px) {
-        width: 60px;
+        width: 40px;
       }
     }
+  }
+
+  .make-lower {
+    text-transform: lowercase;
   }
 // potrait ===================================================
   .slide.portrait {
    
     h1 {
      
-      margin: 10px auto 0 auto;
+      margin: 15px auto 0 auto;
       @media all and (min-width: 1301px) {
         width: 50% ;
-        //outline: red salmon 1px;
+       
     }
-      @media all and (min-width: 701px) and (max-width: 1300px) {
+      @media all and (min-width: 801px) and (max-width: 1300px) {
         width: 45%;
        }
-      @media all and (max-width: 700px) {
+       @media all and (min-width: 501px) and (max-width: 800px) {
+        width: 60%;
+       }
+
+      @media all and (max-width: 500px) {
        
         width: 80%;
     }
@@ -150,10 +163,14 @@ section {
         width: 50% ;
        
     }
-      @media all and (min-width: 701px) and (max-width: 1300px) {
+      @media all and (min-width: 801px) and (max-width: 1300px) {
         width: 45%;
        }
-      @media all and (max-width: 700px) {
+       @media all and (min-width: 501px) and (max-width: 800px) {
+        width: 60%;
+       }
+
+      @media all and (max-width: 500px) {
        
         width: 80%;
     }

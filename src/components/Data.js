@@ -27,7 +27,7 @@ export const Data  = [
     {
         image: image4,
         title: 'wu yi',
-        orientation: 'landscape'
+        orientation: 'portrait'
 
     },
     {

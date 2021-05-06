@@ -34,6 +34,7 @@ const Slider = ({slides}) => {
         const interval = setInterval(play, 5000)
         return () => clearInterval(interval)
       }, [])
+      // slide logic 
 
     const nextSlide = () => {
         setState(state === length - 1 ? 0 : state + 1)
@@ -52,11 +53,11 @@ const Slider = ({slides}) => {
         <div className="slider">
             {
                 slides.map((s, i) => {
-                    console.log('../images/' + s.image)
+                    //console.log('../images/' + s.image)
                     return (
                         <div className={ s.orientation + ' ' + (i === state ? 'slide active' : 'slide') } key={i}>
                             {i === state && <img src={s.image}  alt="architecture images" className={'image'} /> }
-                            {i === state && <h1>{s.title}</h1>}
+                            {i === state && <h1>photo <span className="make-lower">by </span><span className="line"></span>{s.title}</h1>}
                         </div>
                     )
 
